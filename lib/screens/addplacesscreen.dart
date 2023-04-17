@@ -23,12 +23,17 @@ class _AddPlaceScreenState extends State<AddPlaceScreen> {
         title: const Text('Add New Places'),
       ),
       body: SingleChildScrollView(
+        padding: const EdgeInsets.all(12),
         child: Column(
           children: [
             TextField(
               decoration: const InputDecoration(labelText: 'Places'),
               controller: _titleController,
-            )
+            ),
+            ElevatedButton(
+              onPressed: () {},
+              child: const Text('Add'),
+            ),
           ],
         ),
       ),
