@@ -32,7 +32,7 @@ class _AddPlaceScreenState extends State<AddPlaceScreen> {
             ),
             ElevatedButton(
               onPressed: () {},
-              child: const Text('Add'),
+              child: const Text('Add Here'),
             ),
           ],
         ),
