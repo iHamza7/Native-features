@@ -20,7 +20,7 @@ class _AddPlaceScreenState extends State<AddPlaceScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Add'),
+        title: const Text('Add Places'),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(12),
@@ -32,7 +32,7 @@ class _AddPlaceScreenState extends State<AddPlaceScreen> {
             ),
             ElevatedButton(
               onPressed: () {},
-              child: const Text('Add here'),
+              child: const Text('Add'),
             ),
           ],
         ),
